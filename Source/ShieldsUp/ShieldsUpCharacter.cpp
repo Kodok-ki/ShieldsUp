@@ -5,15 +5,21 @@
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
+#include "Kismet/GameplayStatics.h"
+#include "TimerManager.h"
 #include "GameFramework/SpringArmComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AShieldsUpCharacter
 
-AShieldsUpCharacter::AShieldsUpCharacter()
+
+AShieldsUpCharacter::AShieldsUpCharacter(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
+	//#define PrintToScreen(text) if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, text)
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -43,8 +49,33 @@ AShieldsUpCharacter::AShieldsUpCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+
+	bIsAlive = true;
+	bIsBlocking = false;
+	bIsParrying = false;
+	HealthPoints = 100.0f;
+	//ParryFrames = 600.0f;
+	PawnNoiseEmitterComponent = ObjectInitializer.CreateDefaultSubobject<UPawnNoiseEmitterComponent>(this, TEXT("PawnNoiseEmitterComponent"));
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+}
+
+void AShieldsUpCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	USkeletalMeshComponent* PlayerMesh = this->GetMesh();
+	FVector ShieldLocation = PlayerMesh->GetSocketLocation("shield");
+	TSubclassOf<AActor>* ShieldPtr = &Shield;
+	GetWorld()->SpawnActor(*ShieldPtr, &ShieldLocation, &FRotator::ZeroRotator);
+	//ShieldPtr->GetDefaultObject()->AttachToComponent(PlayerMesh, FAttachmentTransformRules::SnapToTargetIncludingScale, "shield");
+}
+
+void AShieldsUpCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	UE_LOG(LogTemp, Warning, TEXT("Is Currently parrying = %s"), (GetParryStatus() ? TEXT("True") : TEXT("False")));
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -61,7 +92,7 @@ void AShieldsUpCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	PlayerInputComponent->BindAxis("MoveRight", this, &AShieldsUpCharacter::MoveRight);
 
 	PlayerInputComponent->BindAction("Block", IE_Pressed, this, &AShieldsUpCharacter::OnBlock);
-	//TODO Create a function that deals with releasing the button
+	PlayerInputComponent->BindAction("Block", IE_Released, this, &AShieldsUpCharacter::ReleaseBlock);
 
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
@@ -78,6 +109,7 @@ void AShieldsUpCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AShieldsUpCharacter::OnResetVR);
 }
+
 
 
 void AShieldsUpCharacter::OnResetVR()
@@ -139,4 +171,83 @@ void AShieldsUpCharacter::MoveRight(float Value)
 void AShieldsUpCharacter::OnBlock()
 {
 	UE_LOG(LogTemp, Warning, TEXT("OnBlock successfully called."));
+	bIsBlocking = true;
+	bIsParrying = true;
+	StartParryTimer();
+	//TODO Implement logic for OnBlock()
+}
+
+void AShieldsUpCharacter::ReleaseBlock()
+{
+	UE_LOG(LogTemp, Warning, TEXT("ReleaseBlock successfully called."));
+	bIsBlocking = false;
+	//TODO Implement logic for ReleaseBlock()
+}
+
+void AShieldsUpCharacter::GameOverHandler()
+{
+	//TODO: Implement
+	return;
+}
+
+/*Handles playing the audio file heard by players AND the virtual sound heard by surround pawns*/
+void AShieldsUpCharacter::ReportNoise(USoundBase* SoundToPlay, float Volume)
+{
+	if (SoundToPlay)
+	{
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(), SoundToPlay, GetActorLocation(), Volume);
+		MakeNoise(Volume, this, GetActorLocation());
+	}
+}
+
+bool AShieldsUpCharacter::PlayerIsHitHandler(const float Damage, const class AActor* DamageCauser)
+{
+	if (bIsBlocking && bIsParrying)
+	{
+		Parry();
+		return bIsParrying;
+	}
+	else if (bIsBlocking & !bIsParrying)
+	{
+		return bIsParrying;
+	}
+	else
+	{
+		TakeDamage(Damage, DamageCauser);
+		return false;
+	}
+}
+
+void AShieldsUpCharacter::Parry()
+{
+	//PrintToScreen("PARRY GOD");
+
+}
+
+float AShieldsUpCharacter::TakeDamage(const float Damage, const class AActor* DamageCauser)
+{
+	//const float DamageTaken = Super::TakeDamage(Damage, DamageCauser);
+
+	if (Damage > 0.f && DamageCauser != nullptr)
+	{
+		HealthPoints -= Damage;
+		//PrintToScreen(DamageCauser->GetName());
+		if (HealthPoints <= 0.f)
+		{
+			bIsAlive = false;
+			GameOverHandler();
+		}
+	}
+
+	return Damage;
+}
+
+void AShieldsUpCharacter::StartParryTimer()
+{
+	if (ParryTimerRef.IsValid())
+	{
+		GetWorld()->GetTimerManager().ClearTimer(ParryTimerRef);
+	}
+	FTimerDelegate SetParryDel = FTimerDelegate::CreateUObject(this, &AShieldsUpCharacter::SetParryStatus, false);
+	GetWorld()->GetTimerManager().SetTimer(ParryTimerRef, SetParryDel, 6.0f, false);
 }
