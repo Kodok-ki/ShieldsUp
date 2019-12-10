@@ -17,6 +17,8 @@ Controls
 
 >Parry - Left click (1 second window after clicking)
 
+>Quit - Alt+F4
+
 
 ShieldsUp Ver. 0.8
 =========================
