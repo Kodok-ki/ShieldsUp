@@ -7,11 +7,15 @@ A miniature action arcade game that focuses on blocking and parrying as its main
 
 Controls
 =========================
-Movement - WASD
-Jump - Spacebar
-Camera control - Mouse movement
-Blocking - Left click (and hold)
-Parry - Left click (1 second window after clicking)
+>Movement - WASD
+
+>Jump - Spacebar
+
+>Camera control - Mouse movement
+
+>Blocking - Left click (and hold)
+
+>Parry - Left click (1 second window after clicking)
 
 
 ShieldsUp Ver. 0.8
