@@ -22,6 +22,7 @@ void AStandardBotPawn::BeginPlay()
 {
 	Super::BeginPlay();
 
+	SpawnDefaultController();
 	SBotWorld = GetWorld();
 	SBotWorld->GetTimerManager().SetTimer(TimerHandler, this, &AStandardBotPawn::Shoot, 1.0f, true);
 	if (PawnSensor)
@@ -29,6 +30,9 @@ void AStandardBotPawn::BeginPlay()
 		PawnSensor->OnSeePawn.AddDynamic(this, &AStandardBotPawn::OnSeePawn);
 		PawnSensor->OnHearNoise.AddDynamic(this, &AStandardBotPawn::OnHearNoise);
 	}
+
+	bIsAlive = true;
+	HealthPoints = 3;
 }
 
 // Called every frame
@@ -80,6 +84,20 @@ void AStandardBotPawn::Shoot()
 	SBotLocation = GetActorLocation() + LocationOffset;
 	SBotRotation = GetActorRotation();
 	SBotWorld->SpawnActor(Projectile, &SBotLocation, &SBotRotation);
+}
+
+void AStandardBotPawn::TakeDamage(float Damage)
+{
+	if (Damage > 0.f && bIsAlive)
+	{
+		HealthPoints -= Damage;
+		//PrintToScreen(DamageCauser->GetName());
+		if (HealthPoints <= 0.f)
+		{
+			bIsAlive = false;
+			AActor::Destroy();
+		}
+	}
 }
 
 void AStandardBotPawn::RotateYawTowardsOtherActor(const AActor* OtherActor)

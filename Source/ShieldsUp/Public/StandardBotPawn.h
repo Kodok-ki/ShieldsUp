@@ -38,6 +38,12 @@ public:
 	
 	UPROPERTY()
 	FRotator SBotRotation;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "EnemyStats")
+	int HealthPoints;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "EnemyStats")
+	bool bIsAlive;
 	
 	UPROPERTY()
 	FTimerHandle TimerHandler;
@@ -70,6 +76,9 @@ public:
 
 	UFUNCTION()
 	void OnHearNoise(APawn* InstigatorPawn, const FVector& Location, float Volume);
+
+	UFUNCTION(BlueprintCallable, Category = "Damage")
+	void TakeDamage(const float Damage);
 
 	//Rotation in yaw axis only
 	UFUNCTION(BlueprintCallable, Category = "AI")

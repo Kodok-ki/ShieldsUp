@@ -10,6 +10,8 @@
 #include "GameFramework/Controller.h"
 #include "Kismet/GameplayStatics.h"
 #include "TimerManager.h"
+#include "ConstructorHelpers.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
 //////////////////////////////////////////////////////////////////////////
@@ -18,7 +20,7 @@
 
 AShieldsUpCharacter::AShieldsUpCharacter(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
-	//#define PrintToScreen(text) if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, text)
+	#define PrintToScreen(text) if(GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, text)
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -75,7 +77,6 @@ void AShieldsUpCharacter::BeginPlay()
 void AShieldsUpCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	UE_LOG(LogTemp, Warning, TEXT("Is Currently parrying = %s"), (GetParryStatus() ? TEXT("True") : TEXT("False")));
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -170,18 +171,14 @@ void AShieldsUpCharacter::MoveRight(float Value)
 
 void AShieldsUpCharacter::OnBlock()
 {
-	UE_LOG(LogTemp, Warning, TEXT("OnBlock successfully called."));
 	bIsBlocking = true;
 	bIsParrying = true;
 	StartParryTimer();
-	//TODO Implement logic for OnBlock()
 }
 
 void AShieldsUpCharacter::ReleaseBlock()
 {
-	UE_LOG(LogTemp, Warning, TEXT("ReleaseBlock successfully called."));
 	bIsBlocking = false;
-	//TODO Implement logic for ReleaseBlock()
 }
 
 void AShieldsUpCharacter::GameOverHandler()
@@ -202,12 +199,7 @@ void AShieldsUpCharacter::ReportNoise(USoundBase* SoundToPlay, float Volume)
 
 bool AShieldsUpCharacter::PlayerIsHitHandler(const float Damage, const class AActor* DamageCauser)
 {
-	if (bIsBlocking && bIsParrying)
-	{
-		Parry();
-		return bIsParrying;
-	}
-	else if (bIsBlocking & !bIsParrying)
+	if (bIsBlocking)
 	{
 		return bIsParrying;
 	}
@@ -220,11 +212,11 @@ bool AShieldsUpCharacter::PlayerIsHitHandler(const float Damage, const class AAc
 
 void AShieldsUpCharacter::Parry()
 {
-	//PrintToScreen("PARRY GOD");
+	PrintToScreen("PARRY GOD");
 
 }
 
-float AShieldsUpCharacter::TakeDamage(const float Damage, const class AActor* DamageCauser)
+float AShieldsUpCharacter::TakeDamage(const float Damage, const class AActor* DamageCauser) 
 {
 	//const float DamageTaken = Super::TakeDamage(Damage, DamageCauser);
 
@@ -249,5 +241,5 @@ void AShieldsUpCharacter::StartParryTimer()
 		GetWorld()->GetTimerManager().ClearTimer(ParryTimerRef);
 	}
 	FTimerDelegate SetParryDel = FTimerDelegate::CreateUObject(this, &AShieldsUpCharacter::SetParryStatus, false);
-	GetWorld()->GetTimerManager().SetTimer(ParryTimerRef, SetParryDel, 6.0f, false);
+	GetWorld()->GetTimerManager().SetTimer(ParryTimerRef, SetParryDel, 1.0f, false);
 }
