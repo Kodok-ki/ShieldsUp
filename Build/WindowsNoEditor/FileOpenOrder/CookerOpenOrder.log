@@ -934,115 +934,116 @@
 "../../../../Unreal Projects/ShieldsUp/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" 933
 "../../../../Unreal Projects/ShieldsUp/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" 934
 "../../../../Unreal Projects/ShieldsUp/Content/ThirdPersonCPP/Maps/ShieldsUpMap.umap" 935
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Shield.uasset" 936
-"../../../../Unreal Projects/ShieldsUp/Content/Blueprints/WeaponKitShield_BP.uasset" 937
-"../../../../Unreal Projects/ShieldsUp/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset" 938
-"../../../../Unreal Projects/ShieldsUp/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" 939
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 940
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.uasset" 941
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 942
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset" 943
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/TangentBasis.uasset" 944
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 945
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SplineThicken.uasset" 946
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/T_GodRay_Mask01.uasset" 947
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Noise/TilingNoise02.uasset" 948
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/M_GodRay.uasset" 949
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/M_GodRay_Inst_Animated.uasset" 950
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/SM_GodRay_Plane.uasset" 951
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/T_GodRay_Mask02.uasset" 952
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/BP_GodRay.uasset" 953
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Map/Weapons_Kit_BuiltData.uasset" 954
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Base_Color.uasset" 955
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Metallic.uasset" 956
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Normal_DirectX.uasset" 957
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Opacity.uasset" 958
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Roughness.uasset" 959
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/M_Stained_Glass.uasset" 960
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Trim_BaseColor.uasset" 961
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Trim_Normal.uasset" 962
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Trim_OcclusionRoughnessMetallic.uasset" 963
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Stone_Wall_Trim.uasset" 964
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim_BaseColor.uasset" 965
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim_Normal.uasset" 966
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim_OcclusionRoughnessMetallic.uasset" 967
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Wall_Window_Frame1.uasset" 968
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim2_BaseColor.uasset" 969
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim2_Normal.uasset" 970
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim2_OcclusionRoughnessMetallic.uasset" 971
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Wall_Window_Frame2.uasset" 972
-"../../../Engine/Content/BasicShapes/Plane.uasset" 973
-"../../../Engine/Content/EditorMeshes/EditorSkySphere.uasset" 974
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Fire/T_FireSubUV_11X11_32.uasset" 975
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_TilingNoise16.uasset" 976
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.uasset" 977
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_HeatTile3_N.uasset" 978
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_TilingNoise03.uasset" 979
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Fire/M_HeatDistort.uasset" 980
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Flares/T_FlareRound_Noise.uasset" 981
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Flares/M_FlareRound.uasset" 982
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_TilingNoise12.uasset" 983
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Snow/T_Snow01_Packed.uasset" 984
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Sparks/M_Spark_VelocityLerp.uasset" 985
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/VectorFields/VF_RandomNoise_01_90.uasset" 986
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Particles/Fire/P_TorchFire.uasset" 987
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banner_BaseColor.uasset" 988
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banner_Normal.uasset" 989
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banners_Normal.uasset" 990
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banners_OcclusionRoughnessMetallic.uasset" 991
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Banners.uasset" 992
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Banner_1.uasset" 993
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props1_BaseColor.uasset" 994
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props1_Normal.uasset" 995
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props1_OcclusionRoughnessMetallic.uasset" 996
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Props1.uasset" 997
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Banner_Rod1.uasset" 998
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Wood_Props_BaseColor.uasset" 999
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Wood_Props_Normal.uasset" 1000
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Wood_Props_OcclusionRoughnessMetallic.uasset" 1001
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Wood_Props.uasset" 1002
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Barrel.uasset" 1003
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props2_BaseColor.uasset" 1004
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props2_Normal.uasset" 1005
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props2_OcclusionRoughnessMetallic.uasset" 1006
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Props2.uasset" 1007
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Bench.uasset" 1008
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Chair.uasset" 1009
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Fire_Bowl.uasset" 1010
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Holder.uasset" 1011
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Table.uasset" 1012
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Wall_Torch1.uasset" 1013
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Weapon_Rack2.uasset" 1014
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Weapon_rack_1.uasset" 1015
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Weapon_WallMount.uasset" 1016
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Floor_BaseColor.uasset" 1017
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Floor_Normal.uasset" 1018
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Floor_OcclusionRoughnessMetallic.uasset" 1019
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Floor.uasset" 1020
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Floor.uasset" 1021
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_BaseColor.uasset" 1022
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Normal.uasset" 1023
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_OcclusionRoughnessMetallic.uasset" 1024
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Stone_Wall.uasset" 1025
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Wall.uasset" 1026
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Window_Frames_BaseColor.uasset" 1027
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Window_Frames_Normal.uasset" 1028
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Window_Frames_OcclusionRoughnessMetallic.uasset" 1029
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Window_Frames.uasset" 1030
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Window_Frame_Large.uasset" 1031
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Window_Wall_Tall.uasset" 1032
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Axe.uasset" 1033
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Dagger_1.uasset" 1034
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Dagger_2.uasset" 1035
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_GreatAxe.uasset" 1036
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_GreatHammer.uasset" 1037
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_H2H.uasset" 1038
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Mace.uasset" 1039
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Sickle.uasset" 1040
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Spear.uasset" 1041
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Sword.uasset" 1042
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Throwing.uasset" 1043
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 1044
-"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Map/Weapons_Kit.umap" 1045
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1046
-"../../../Engine/Content/Maps/Entry.umap" 1047
+"../../../../Unreal Projects/ShieldsUp/Content/Blueprints/EnemySpawner_BP.uasset" 936
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Shield.uasset" 937
+"../../../../Unreal Projects/ShieldsUp/Content/Blueprints/WeaponKitShield_BP.uasset" 938
+"../../../../Unreal Projects/ShieldsUp/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset" 939
+"../../../../Unreal Projects/ShieldsUp/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" 940
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 941
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.uasset" 942
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 943
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset" 944
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/TangentBasis.uasset" 945
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 946
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SplineThicken.uasset" 947
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/T_GodRay_Mask01.uasset" 948
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Noise/TilingNoise02.uasset" 949
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/M_GodRay.uasset" 950
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/M_GodRay_Inst_Animated.uasset" 951
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/SM_GodRay_Plane.uasset" 952
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/Lightshaft/T_GodRay_Mask02.uasset" 953
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Blueprints/Lightshaft/BP_GodRay.uasset" 954
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Map/Weapons_Kit_BuiltData.uasset" 955
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Base_Color.uasset" 956
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Metallic.uasset" 957
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Normal_DirectX.uasset" 958
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Opacity.uasset" 959
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Stain_Glass/StainGlass_Roughness.uasset" 960
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/M_Stained_Glass.uasset" 961
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Trim_BaseColor.uasset" 962
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Trim_Normal.uasset" 963
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Trim_OcclusionRoughnessMetallic.uasset" 964
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Stone_Wall_Trim.uasset" 965
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim_BaseColor.uasset" 966
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim_Normal.uasset" 967
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim_OcclusionRoughnessMetallic.uasset" 968
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Wall_Window_Frame1.uasset" 969
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim2_BaseColor.uasset" 970
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim2_Normal.uasset" 971
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Window_Trim2_OcclusionRoughnessMetallic.uasset" 972
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Wall_Window_Frame2.uasset" 973
+"../../../Engine/Content/BasicShapes/Plane.uasset" 974
+"../../../Engine/Content/EditorMeshes/EditorSkySphere.uasset" 975
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Fire/T_FireSubUV_11X11_32.uasset" 976
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_TilingNoise16.uasset" 977
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.uasset" 978
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_HeatTile3_N.uasset" 979
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_TilingNoise03.uasset" 980
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Fire/M_HeatDistort.uasset" 981
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Flares/T_FlareRound_Noise.uasset" 982
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Flares/M_FlareRound.uasset" 983
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Noise/T_TilingNoise12.uasset" 984
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Textures/Snow/T_Snow01_Packed.uasset" 985
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Materials/Sparks/M_Spark_VelocityLerp.uasset" 986
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/VectorFields/VF_RandomNoise_01_90.uasset" 987
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Effects/Particles/Fire/P_TorchFire.uasset" 988
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banner_BaseColor.uasset" 989
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banner_Normal.uasset" 990
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banners_Normal.uasset" 991
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Banners_OcclusionRoughnessMetallic.uasset" 992
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Banners.uasset" 993
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Banner_1.uasset" 994
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props1_BaseColor.uasset" 995
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props1_Normal.uasset" 996
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props1_OcclusionRoughnessMetallic.uasset" 997
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Props1.uasset" 998
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Banner_Rod1.uasset" 999
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Wood_Props_BaseColor.uasset" 1000
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Wood_Props_Normal.uasset" 1001
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Wood_Props_OcclusionRoughnessMetallic.uasset" 1002
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Wood_Props.uasset" 1003
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Barrel.uasset" 1004
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props2_BaseColor.uasset" 1005
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props2_Normal.uasset" 1006
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Props/Interior/T_Props2_OcclusionRoughnessMetallic.uasset" 1007
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Props/Interior/M_Props2.uasset" 1008
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Bench.uasset" 1009
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Chair.uasset" 1010
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Fire_Bowl.uasset" 1011
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Holder.uasset" 1012
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Table.uasset" 1013
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Wall_Torch1.uasset" 1014
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Weapon_Rack2.uasset" 1015
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Weapon_rack_1.uasset" 1016
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Props/Interior/SM_Weapon_WallMount.uasset" 1017
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Floor_BaseColor.uasset" 1018
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Floor_Normal.uasset" 1019
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Floor_OcclusionRoughnessMetallic.uasset" 1020
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Floor.uasset" 1021
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Floor.uasset" 1022
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_BaseColor.uasset" 1023
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_Normal.uasset" 1024
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/Walls/T_Stone_Wall_OcclusionRoughnessMetallic.uasset" 1025
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Stone_Wall.uasset" 1026
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Wall.uasset" 1027
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Window_Frames_BaseColor.uasset" 1028
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Window_Frames_Normal.uasset" 1029
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/Set/T_Window_Frames_OcclusionRoughnessMetallic.uasset" 1030
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Materials/Set/M_Window_Frames.uasset" 1031
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Window_Frame_Large.uasset" 1032
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Set/SM_Window_Wall_Tall.uasset" 1033
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Axe.uasset" 1034
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Dagger_1.uasset" 1035
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Dagger_2.uasset" 1036
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_GreatAxe.uasset" 1037
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_GreatHammer.uasset" 1038
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_H2H.uasset" 1039
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Mace.uasset" 1040
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Sickle.uasset" 1041
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Spear.uasset" 1042
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Sword.uasset" 1043
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Mesh/Weapons/Weapons_Kit/SM_Throwing.uasset" 1044
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Textures/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 1045
+"../../../../Unreal Projects/ShieldsUp/Content/Weapon_Pack/Map/Weapons_Kit.umap" 1046
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1047
+"../../../Engine/Content/Maps/Entry.umap" 1048
