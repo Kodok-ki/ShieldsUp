@@ -1,1 +1,6 @@
 Content/** filter=lfs diff=lfs merge=lfs -text
+ShieldsUp-WindowsNoEditor.pak filter=lfs diff=lfs merge=lfs -text
+*.pak filter=lfs diff=lfs merge=lfs -text
+Build[[:space:]]Files/** filter=lfs diff=lfs merge=lfs -text
+Build[[:space:]]Files[[:space:]]0.9/** filter=lfs diff=lfs merge=lfs -text
+Build[[:space:]]Files[[:space:]]0.9/WindowsNoEditor/ShieldsUp/Content/Paks/** filter=lfs diff=lfs merge=lfs -text
