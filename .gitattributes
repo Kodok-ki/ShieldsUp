@@ -4,3 +4,7 @@ ShieldsUp-WindowsNoEditor.pak filter=lfs diff=lfs merge=lfs -text
 Build[[:space:]]Files/** filter=lfs diff=lfs merge=lfs -text
 Build[[:space:]]Files[[:space:]]0.9/** filter=lfs diff=lfs merge=lfs -text
 Build[[:space:]]Files[[:space:]]0.9/WindowsNoEditor/ShieldsUp/Content/Paks/** filter=lfs diff=lfs merge=lfs -text
+Build[[:space:]]Files[[:space:]]0.9/WindowsNoEditor/ShieldsUp/Content/Paks/ShieldsUp-WindowsNoEditor.pak filter=lfs diff=lfs merge=lfs -text
+Build[[:space:]]Files[[:space:]]0.9/WindowsNoEditor/ShieldsUp/Content/** filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
+A:/C/Users/Ricky/Desktop/Unreal[[:space:]]Projects/ShieldsUp/HTML5/* filter=lfs diff=lfs merge=lfs -text
